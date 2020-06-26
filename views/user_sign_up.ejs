@@ -1,3 +1,11 @@
 <h1>
     Sign Up
 </h1>
+
+<form action="/users/create" method = "POST">
+    <input type="text" name = "name" placeholder="Enter Name" required><br>
+    <input type="email" name = "email" placeholder="Enter Email" required><br>
+    <input type="password" name = "password" placeholder="Enter Password" required><br>
+    <input type="password" name = "confirm_password" placeholder="Confirm Password" required><br><br>
+    <input type="submit" name = "submit" value="Sign Up"><br>
+</form>
