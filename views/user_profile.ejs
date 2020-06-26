@@ -5,3 +5,10 @@
 <h1>  
     Codeial / Profile Page <%= title%>
 </h1>
+<h2>
+    Your Name : <%= user.name%> <br>
+    Your Email : <%= user.email%><br>
+    <form action = "/users/destroy-session" method="POST">
+        <input type="submit" name = "submit" value = "Sign Out">
+    </form>
+</h2>
