@@ -1,0 +1,6 @@
+body #layout-header {
+  background-color: red; }
+
+body #user-name-and-sign-out {
+  display: flex;
+  justify-content: space-evenly; }
